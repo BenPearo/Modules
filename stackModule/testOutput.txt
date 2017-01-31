@@ -1,0 +1,51 @@
+testing createStack()
+theStack->capacity == 10
+
+Testing Push()
+inserting 10
+size of list = 1
+head : 0x6c22a0 <-
+top :  0x6c22a0 <- these two address must be the same 
+inserting 6
+size of list = 2
+head : 0x6c22c0 <-
+top :  0x6c22c0 <- these two address must be the same 
+inserting 16
+size of list = 3
+head : 0x6c22e0 <-
+top :  0x6c22e0 <- these two address must be the same 
+inserting 32
+size of list = 4
+head : 0x6c2300 <-
+top :  0x6c2300 <- these two address must be the same 
+stack->size = 4
+
+Testing Pop()
+popped data = 32
+newHead->data = 16
+head : 0x6c22e0 <-
+top :  0x6c22e0 <- these two address must be the same 
+poppedTwo data = 16
+newHead->data = 6
+head : 0x6c22c0 <-
+top :  0x6c22c0 <- these two address must be the same 
+poppedThree data = 6
+newHead->data = 10
+head : 0x6c22a0 <-
+top :  0x6c22a0 <- these two address must be the same 
+stack->size = 1
+
+Testing Peek()
+an empty list was peeked at
+
+Testing isEmpty()
+ans = false
+
+Testing isFull()
+ans = false
+
+Testing length()
+theLength = 1
+
+Testing destroyStack()
+the destroyFlag = 0  (0 is success)
